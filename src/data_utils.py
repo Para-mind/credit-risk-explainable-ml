@@ -17,9 +17,9 @@ def load_raw_data(file_name = "credit_risk_dataset.csv"):
     return pd.read_csv(file_path)
 
 
-def load_cleaned_data(file_name = "credit_risk_dataset_cleaned.csv"):
+def load_processed_data(file_name ):
     """
-    Load the cleaned credit risk dataset from the data directory.
+    Load the processed credit risk dataset from the data directory.
 
     Parameters:
     file_name (str): The name of the CSV file to load.
